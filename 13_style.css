@@ -1,0 +1,39 @@
+body
+{
+  font-family: georgia, serif;
+  background-color: black;
+}
+h1, h5, p
+{
+  color: white;
+}
+.vehicleMessage, .vehicleDisplay, .vehicleFunction
+{
+margin-bottom: 30px;
+border-radius: 5px;
+background-color: grey;
+font-size: 1em;
+width: 95%;
+height: 50px;
+}
+.buttonZone
+{
+width: 95%;
+}
+
+.button
+{
+  margin-right: 10px;
+  width: 200px;
+  border-radius: 5px;
+  background-color: #FF8C00;
+}
+.button:hover
+{
+  background-color: #FF00FF;
+  color: white;
+  transition: 700ms;
+}
+#createCar, #showCar, #changeCar {background-color: #FF8C00}
+#createPlane, #showPlane, #changePlane {background-color: red}
+#createShip, #showShip, #changeShip {background-color: #00BFFF}
